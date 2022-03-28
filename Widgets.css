@@ -1,0 +1,102 @@
+.widgets {
+    flex: 0.3;
+    position: sticky;
+    top: 80px;
+    background-color: white;
+    border-radius: 10px;
+    border: 1px solid lightgray;
+    height: fit-content;
+    padding-right: -10px;
+    
+  }
+  
+  .widget_header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    
+  }
+  
+  .widget_header > h2 {
+    font-size: 16px;
+    
+  }
+  
+  .widget_article {
+    display: flex;
+    padding: 10px;
+    cursor: pointer;
+  }
+  
+  .widget_article:hover {
+    background-color: whitesmoke;
+  }
+  
+  .widgets_articleleft {
+    color: #0177b7;
+    margin-right: 5px;
+  }
+  
+  .widgets_articleleft > .MuiSvgIcon-root {
+    font-size: 15px;
+  }
+  
+  .widgets_articleright {
+    flex: 1;
+  }
+  
+  .widgets_articleright > h4 {
+    font-size: 14px;
+  }
+  
+  .widgets_articleright > p {
+    font-size: 12px;
+    color: gray;
+  }
+
+.widgets_body
+{
+   
+    background-color: white;
+    border-radius: 10px;
+    border: 1px solid lightgray;
+    display: flex;
+     flex-direction: column;
+    padding: 10px;
+}
+.courseOffered
+{
+    font-weight: 400;
+    
+}
+.widgets_body > p
+{
+    text-align: left;
+    font-weight: normal;
+    font-size: 13px;
+}
+.widgets_body > h5
+{
+    text-align: right;
+    font-weight: normal;
+    font-size: 13px;
+}.widgets_body > h6
+{
+    text-align: center;
+    font-weight: normal;
+    font-size: 11px;
+}
+
+.widgets_body > p
+{
+    text-align: center;
+    font-weight: normal;
+    font-size: 15px;
+}
+.widgets_body > img
+{        
+    height: 20px;
+    width: 80px;
+}
+
